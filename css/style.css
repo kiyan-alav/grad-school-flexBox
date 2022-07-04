@@ -76,6 +76,7 @@ a {
 img {
   width: 100%;
   display: block;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 h1,
@@ -156,6 +157,7 @@ Video
 */
 #header-video {
   position: absolute;
+  -o-object-fit: cover;
   object-fit: cover;
   height: 100%;
   width: 100%;
@@ -398,6 +400,7 @@ About Us
 }
 .about .about-information-section img {
   max-width: 32rem;
+  -o-object-fit: cover;
   object-fit: cover;
   margin: 0 auto;
 }
@@ -502,6 +505,26 @@ Onlion Course
 }
 .onlion-course .register form .form-control:focus {
   outline: transparent;
+}
+.onlion-course .register form .form-control::-webkit-input-placeholder {
+  color: var(--clr-white);
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.onlion-course .register form .form-control::-moz-placeholder {
+  color: var(--clr-white);
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.onlion-course .register form .form-control:-ms-input-placeholder {
+  color: var(--clr-white);
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.onlion-course .register form .form-control::-ms-input-placeholder {
+  color: var(--clr-white);
+  text-transform: capitalize;
+  letter-spacing: 2px;
 }
 .onlion-course .register form .form-control::placeholder {
   color: var(--clr-white);
